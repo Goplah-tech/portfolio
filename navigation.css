@@ -1,0 +1,266 @@
+* h2 {
+  font-family: "stim";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+}
+.header .logo {
+  width: 5%;
+  z-index: 999;
+  top: -50;
+}
+.header .logo img {
+  width: 100%;
+}
+.header .menu {
+  background-color: rgba(244, 42, 42, 0.643);
+  position: absolute;
+  top: 0;
+  width: 95.5%;
+  left: -100vw;
+  opacity: 0;
+  transition: 0.4s ease;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+}
+.header .menu .menuitems {
+  padding: 8px 0px;
+  list-style-type: none;
+}
+.header .menu .menuitems a {
+  color: white;
+  text-decoration: none;
+  font-family: "love";
+  font-size: 10px;
+}
+.header .hamburger {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 999;
+  top: 1;
+}
+.header .hamburger .bar {
+  background-color: white;
+  z-index: 999;
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.header .hamburger #top {
+  transform: translateY(-5px);
+  transition: all 0.7s ease;
+}
+.header .hamburger #middle {
+  transition: all 0.3s ease;
+  width: 50%;
+}
+.header .hamburger #bottom {
+  transform: translateY(5px);
+  transition: all 0.7s ease;
+}
+.header .open {
+  opacity: 1;
+  left: 0;
+}
+.header .open .menu {
+  height: 100vh;
+}
+.header .open #top {
+  transform: translateY(7px);
+  rotate: 45deg;
+  background-color: white;
+}
+.header .open #middle {
+  opacity: 0;
+}
+.header .open #bottom {
+  transform: translateY(-7px);
+  rotate: -45deg;
+  background-color: white;
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+  }
+  .header .logo {
+    width: 5%;
+    z-index: 999;
+    top: -50;
+  }
+  .header .logo img {
+    width: 100%;
+  }
+  .header .menu {
+    background-color: rgba(244, 42, 42, 0.643);
+    position: absolute;
+    top: 0;
+    width: 95.5%;
+    left: -100vw;
+    opacity: 0;
+    transition: 0.4s ease;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+  }
+  .header .menu .menuitems {
+    padding: 8px 0px;
+    list-style-type: none;
+  }
+  .header .menu .menuitems a {
+    color: white;
+    text-decoration: none;
+    font-family: "love";
+    font-size: 10px;
+  }
+  .header .hamburger {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 999;
+    top: 1;
+  }
+  .header .hamburger .bar {
+    background-color: white;
+    z-index: 999;
+    height: 5px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+  }
+  .header .hamburger #top {
+    transform: translateY(-5px);
+    transition: all 0.7s ease;
+  }
+  .header .hamburger #middle {
+    transition: all 0.3s ease;
+    width: 50%;
+  }
+  .header .hamburger #bottom {
+    transform: translateY(5px);
+    transition: all 0.7s ease;
+  }
+  .header .open {
+    opacity: 1;
+    left: 0;
+  }
+  .header .open .menu {
+    height: 100vh;
+  }
+  .header .open #top {
+    transform: translateY(7px);
+    rotate: 45deg;
+    background-color: white;
+  }
+  .header .open #middle {
+    opacity: 0;
+  }
+  .header .open #bottom {
+    transform: translateY(-7px);
+    rotate: -45deg;
+    background-color: white;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header {
+    padding: 30px 50px;
+    align-items: center;
+    margin-top: 0;
+  }
+  .header .logo {
+    width: 5%;
+    z-index: 999;
+    margin-top: -10px;
+  }
+  .header .logo img {
+    width: 100%;
+  }
+  .header .button {
+    width: 20%;
+    display: block;
+    position: relative;
+    right: -50px;
+  }
+  .header .button i {
+    color: white;
+    font-size: 13px;
+  }
+  .header .button .first {
+    margin-left: 0px;
+  }
+  .header .button a {
+    color: white;
+    font-size: 17px;
+    font-family: "regular";
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+  }
+  .header .button:hover .first {
+    margin-left: 5px;
+    transition: 1s;
+  }
+  .header .menu {
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 30px;
+    opacity: 1;
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+  }
+  .header .menu .menuitems {
+    padding: 27px 15px;
+  }
+  .header .menu .menuitems a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "bold";
+  }
+  .header .menu .menuitems a:hover {
+    text-decoration: underline;
+    transition: 1s;
+  }
+  .header .menu .menuitems .bold {
+    font-size: 33px;
+  }
+  .header .hamburger {
+    display: none;
+  }
+}/*# sourceMappingURL=navigation.css.map */

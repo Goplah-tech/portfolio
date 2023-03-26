@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "bold";
+    font-style: normal;
+    src: url("Montserrat-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "semi-bold";
+    font-style: normal;
+    src: url("Montserrat-SemiBold.ttf");
+  }
+
+  @font-face {
+    font-family: "light";
+    font-style: normal;
+    src: url("Montserrat-Light.ttf");
+  }
+
+  @font-face {
+    font-family: "regular";
+    font-style: normal;
+    src: url("Montserrat-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "stim";
+    src: url("Heartjungle.ttf");
+  }
+
+  @font-face {
+    font-family: "goplah";
+    src: url("Heartjungle.otf");
+  }
+
+  @font-face {
+    font-family: "love";
+    src: url("TitilliumWeb-SemiBold.ttf");
+  }
+
+  @font-face {
+    font-family: "italic";
+    src: url("TitilliumWeb-Italic.ttf");
+  }
