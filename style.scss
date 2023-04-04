@@ -104,7 +104,7 @@ button{ height: 60px;width: 140px; background-color: rgba(244, 42, 42, 0.643);co
 
 .services{
     background-image: url(./img/services\ img.jpg);position: relative; background-repeat: no-repeat; background-size: cover; height: 1550px;
-    h2{color: rgb(255, 255, 255);font-size: 20px; font-family: $love; z-index: 6;position: relative;padding-top: 80px;left: 0%;}
+    h2{color: rgb(255, 255, 255);font-size: 20px; font-family: $love; z-index: 6;position: relative;padding-top: 80px;}
     h3{font-size: 20px;font-family: $bh1;padding-top: 30px;z-index: 6;color: white;margin-right: 45%;margin-bottom: 30px;}
     h4{font-size: 8px;font-family: $bh1;margin-bottom: 30px;}
     .overlay{position: absolute;background-color: rgba(16, 9, 9, 0.795);top: 0; left: 0; height: 100%;width: 100%; z-index: 5; padding-top: 155px; display: flex; flex-direction: column; text-align: center;
@@ -112,10 +112,10 @@ button{ height: 60px;width: 140px; background-color: rgba(244, 42, 42, 0.643);co
         h5{font-family: $italic;font-size: 25px;color: white;}
         p{font-family: $italic; font-size: 15px;line-height: 35px;color: white;}
         span{font-family: $italic; font-size: 20px;}
-        .one{background-color: rgba(17, 36, 113, 0.797); padding-top: 10px; width: 400px;}
-         .two{background-color: rgba(88, 61, 10, 0.797);  padding-top: 20px;width: 400px;}
-        .three{background-color: rgba(17, 65, 17, 0.797); padding-top: 20px;width: 400px;}
-        .four{background-color: rgba(54, 8, 8, 0.797); padding-top: 20px;width: 400px;}
+        .one{background-color: rgba(17, 36, 113, 0.797); padding-top: 10px; width: 391px;}
+         .two{background-color: rgba(88, 61, 10, 0.797);  padding-top: 20px;width: 391px;}
+        .three{background-color: rgba(17, 65, 17, 0.797); padding-top: 20px;width: 391px;}
+        .four{background-color: rgba(54, 8, 8, 0.797); padding-top: 20px;width: 391px;}
         .info{margin-top: 20px;}
          .icons{width: 10%;  color: white; filter: invert(1);}}
    
