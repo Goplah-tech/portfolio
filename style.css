@@ -243,7 +243,6 @@ table {
   z-index: 6;
   position: relative;
   padding-top: 80px;
-  left: 5%;
 }
 .services h3 {
   font-size: 20px;
@@ -295,22 +294,22 @@ table {
 .services .overlay .one {
   background-color: rgba(17, 36, 113, 0.797);
   padding-top: 10px;
-  width: 400px;
+  width: 391px;
 }
 .services .overlay .two {
   background-color: rgba(88, 61, 10, 0.797);
   padding-top: 20px;
-  width: 400px;
+  width: 391px;
 }
 .services .overlay .three {
   background-color: rgba(17, 65, 17, 0.797);
   padding-top: 20px;
-  width: 400px;
+  width: 391px;
 }
 .services .overlay .four {
   background-color: rgba(54, 8, 8, 0.797);
   padding-top: 20px;
-  width: 400px;
+  width: 391px;
 }
 .services .overlay .info {
   margin-top: 20px;
