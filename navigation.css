@@ -15,15 +15,16 @@
   width: 5%;
   z-index: 999;
   top: -50;
+  margin-left: 2%;
 }
 .header .logo img {
   width: 100%;
 }
 .header .menu {
-  background-color: rgba(244, 42, 42, 0.643);
+  background-color: rgba(0, 0, 0, 0.842);
   position: absolute;
   top: 0;
-  width: 95.5%;
+  width: 100%;
   left: -100vw;
   opacity: 0;
   transition: 0.4s ease;
@@ -45,32 +46,33 @@
   font-size: 10px;
 }
 .header .hamburger {
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   z-index: 999;
   top: 1;
+  margin-right: 5%;
 }
 .header .hamburger .bar {
   background-color: white;
   z-index: 999;
-  height: 5px;
+  height: 3px;
   width: 100%;
   border-radius: 5px;
   box-shadow: 1px 1px 1px 1px black;
 }
 .header .hamburger #top {
-  transform: translateY(-5px);
+  transform: translateY(-7px);
   transition: all 0.7s ease;
 }
 .header .hamburger #middle {
   transition: all 0.3s ease;
-  width: 50%;
+  width: 100%;
 }
 .header .hamburger #bottom {
-  transform: translateY(5px);
+  transform: translateY(7px);
   transition: all 0.7s ease;
 }
 .header .open {
@@ -81,15 +83,16 @@
   height: 100vh;
 }
 .header .open #top {
-  transform: translateY(7px);
+  transform: translateY(5px);
   rotate: 45deg;
   background-color: white;
 }
 .header .open #middle {
   opacity: 0;
+  transform: rotate(360deg);
 }
 .header .open #bottom {
-  transform: translateY(-7px);
+  transform: translateY(-5px);
   rotate: -45deg;
   background-color: white;
 }
@@ -109,15 +112,16 @@
     width: 5%;
     z-index: 999;
     top: -50;
+    margin-left: 4%;
   }
   .header .logo img {
     width: 100%;
   }
   .header .menu {
-    background-color: rgba(244, 42, 42, 0.643);
+    background-color: rgba(0, 0, 0, 0.841);
     position: absolute;
     top: 0;
-    width: 95.5%;
+    width: 100%;
     left: -100vw;
     opacity: 0;
     transition: 0.4s ease;
@@ -146,6 +150,7 @@
     justify-content: center;
     z-index: 999;
     top: 1;
+    margin-right: 5%;
   }
   .header .hamburger .bar {
     background-color: white;
@@ -156,15 +161,15 @@
     box-shadow: 1px 1px 1px 1px black;
   }
   .header .hamburger #top {
-    transform: translateY(-5px);
+    transform: translateY(-7px);
     transition: all 0.7s ease;
   }
   .header .hamburger #middle {
     transition: all 0.3s ease;
-    width: 50%;
+    width: 70%;
   }
   .header .hamburger #bottom {
-    transform: translateY(5px);
+    transform: translateY(7px);
     transition: all 0.7s ease;
   }
   .header .open {
@@ -181,6 +186,7 @@
   }
   .header .open #middle {
     opacity: 0;
+    transform: rotate(360deg);
   }
   .header .open #bottom {
     transform: translateY(-7px);
@@ -199,6 +205,7 @@
     width: 5%;
     z-index: 999;
     margin-top: -10px;
+    margin-left: 2%;
   }
   .header .logo img {
     width: 100%;

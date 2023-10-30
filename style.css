@@ -218,7 +218,7 @@ table {
   border: 0px;
   font-family: "regular";
   margin-top: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   font-size: 15px;
   line-height: 35px;
   text-align: center;
@@ -234,7 +234,7 @@ table {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1550px;
+  height: 1500px;
 }
 .services h2 {
   color: rgb(255, 255, 255);
@@ -243,6 +243,7 @@ table {
   z-index: 6;
   position: relative;
   padding-top: 80px;
+  left: 0%;
 }
 .services h3 {
   font-size: 20px;
@@ -275,6 +276,7 @@ table {
   font-family: "semi-bold";
   font-size: 20px;
   color: white;
+  margin-top: 30px;
 }
 .services .overlay h5 {
   font-family: "regular";
@@ -294,25 +296,34 @@ table {
 .services .overlay .one {
   background-color: rgba(17, 36, 113, 0.797);
   padding-top: 10px;
-  width: 391px;
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 .services .overlay .two {
   background-color: rgba(88, 61, 10, 0.797);
   padding-top: 20px;
-  width: 391px;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .services .overlay .three {
   background-color: rgba(17, 65, 17, 0.797);
   padding-top: 20px;
-  width: 391px;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .services .overlay .four {
   background-color: rgba(54, 8, 8, 0.797);
   padding-top: 20px;
-  width: 391px;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .services .overlay .info {
   margin-top: 20px;
+  padding: 20px;
 }
 .services .overlay .icons {
   width: 10%;
@@ -438,6 +449,7 @@ table {
   flex-direction: column;
   justify-content: flex-start;
   line-height: 30px;
+  margin-left: 20px;
 }
 .contact form {
   margin-left: 20px;
@@ -694,7 +706,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     border: 0px;
     font-family: "regular";
     margin-top: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     font-size: 15px;
     line-height: 35px;
     text-align: center;
@@ -708,16 +720,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     background-image: url(./img/services\ img.jpg);
     position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
     width: auto;
-    height: 100vh;
+    height: 1200px;
+    text-align: center;
   }
   .services h2 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
+    color: white;
+    font-size: 20px;
     font-family: "stim";
     z-index: 6;
     position: relative;
+    margin-right: 98%;
   }
   .services .overlay {
     position: absolute;
@@ -728,12 +741,22 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     width: 100%;
     z-index: 5;
     padding-top: 155px;
+    display: flex;
+  }
+  .services .overlay h3 {
+    font-size: 15px;
+    font-family: "semi-bold";
+    padding-top: 0px;
+    z-index: 6;
+    color: white;
+    margin-right: 65%;
+    margin-bottom: 30px;
   }
   .services .overlay h4 {
     font-family: "regular";
     font-size: 30px;
     color: white;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .services .overlay h5 {
     font-family: "regular";
@@ -752,32 +775,37 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .services .overlay .one {
     background-color: rgba(17, 36, 113, 0.797);
+    height: 300px;
     padding-top: 20px;
-    width: 363px;
+    width: 360px;
   }
   .services .overlay .two {
     background-color: rgba(88, 61, 10, 0.797);
     height: 300px;
     padding-top: 20px;
-    width: 363px;
+    width: 360px;
   }
   .services .overlay .three {
     background-color: rgba(17, 65, 17, 0.797);
+    height: 300px;
     padding-top: 20px;
-    width: 363px;
+    width: 360px;
   }
   .services .overlay .four {
     background-color: rgba(54, 8, 8, 0.797);
+    height: 300px;
     padding-top: 20px;
-    width: 363px;
+    width: 360px;
   }
   .services .overlay .info {
-    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
   }
   .services .overlay .icons {
     width: 20%;
+    margin-bottom: 20px;
     color: white;
     filter: invert(1);
   }
@@ -792,10 +820,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .portfolio h2 {
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "stim";
     padding-top: 80px;
-    text-align: center;
+    margin-right: 65%;
   }
   .portfolio h3 {
     color: black;
@@ -804,10 +832,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .portfolio h4 {
     color: black;
-    font-size: 40px;
-    font-family: "stim";
-    padding-top: 80px;
-    text-align: center;
+    font-size: 15px;
+    font-family: "semi-bold";
+    padding-top: 0px;
+    margin-right: 70%;
     padding-bottom: 30px;
   }
   .contact {
@@ -1094,7 +1122,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     border: 0px;
     font-family: "regular";
     margin-top: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     font-size: 15px;
     line-height: 35px;
     text-align: center;
@@ -1114,12 +1142,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     text-align: center;
   }
   .services h2 {
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 30px;
     font-family: "stim";
     z-index: 6;
     position: relative;
-    margin-right: 90%;
   }
   .services .overlay {
     position: absolute;
@@ -1135,7 +1162,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .services .overlay h3 {
     font-size: 30px;
     font-family: "semi-bold";
-    padding-top: 30px;
     z-index: 6;
     color: white;
     margin-right: 73%;
@@ -1145,6 +1171,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     font-family: "regular";
     font-size: 30px;
     color: white;
+    margin-top: 30px;
   }
   .services .overlay h5 {
     font-family: "regular";
@@ -1165,28 +1192,32 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     background-color: rgba(17, 36, 113, 0.797);
     height: 300px;
     padding-top: 20px;
-    width: 363px;
+    width: 300px;
+    margin-top: 20px;
   }
   .services .overlay .two {
     background-color: rgba(88, 61, 10, 0.797);
     height: 300px;
     padding-top: 20px;
-    width: 363px;
+    width: 300px;
   }
   .services .overlay .three {
     background-color: rgba(17, 65, 17, 0.797);
     height: 300px;
     padding-top: 20px;
-    width: 363px;
+    width: 300px;
   }
   .services .overlay .four {
     background-color: rgba(54, 8, 8, 0.797);
     height: 300px;
     padding-top: 20px;
-    width: 363px;
+    width: 300px;
   }
   .services .overlay .info {
     margin-bottom: 0px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
   }
   .services .overlay .icons {
     width: 20%;
@@ -1211,7 +1242,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .portfolio h4 {
     font-size: 30px;
     font-family: "semi-bold";
-    padding-top: 30px;
     z-index: 6;
     color: black;
     margin-right: 78%;
@@ -1258,20 +1288,56 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     height: 87%;
     width: 76%;
   }
+  .portfolio .carousel-inner {
+    display: flex;
+  }
+  .portfolio .carousel-inner .carasel-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 60vh;
+  }
+  .portfolio .carousel-inner .carasel-second {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 60vh;
+  }
+  .portfolio .carousel-control-prev {
+    background-color: rgb(3, 5, 14);
+    height: 55px;
+    width: 55px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255) !important;
+    color: rgb(3, 22, 88);
+    margin-top: 30%;
+    margin-left: 40%;
+  }
+  .portfolio .carousel-control-next {
+    background-color: rgb(3, 5, 14);
+    height: 55px;
+    width: 55px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(3, 22, 88);
+    margin-top: 30%;
+    margin-right: 40%;
+  }
   .contact {
     background-color: rgb(7, 6, 6);
-    height: 600px;
+    height: 500px;
     padding-top: 80px;
   }
   .contact h5 {
     font-family: "regular";
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     padding-bottom: 20px;
   }
   .contact p {
     font-family: "regular";
     color: white;
+    font-size: 13px;
   }
   .contact li {
     color: white;
@@ -1285,9 +1351,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     font-family: "regular";
     display: flex;
     align-items: center;
+    font-size: 13px;
   }
   .contact li a img {
-    width: 5%;
+    width: 3%;
     color: white;
     margin-right: 20px;
     filter: invert(1);
@@ -1298,7 +1365,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     padding-top: 30px;
   }
   .contact .icons img {
-    width: 5%;
+    width: 3%;
   }
   .contact .icons a {
     padding: 15px;
@@ -1314,13 +1381,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     line-height: 30px;
   }
   .contact form {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .contact input {
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 30px 60px 20px 30px;
+    padding: 20px 20px 20px 0px;
     width: 550px;
     background-color: rgb(7, 6, 6);
     border: 0;
@@ -1328,12 +1395,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     font-family: "regular";
     outline: 0;
     margin-left: 20px;
+    font-size: 13px;
   }
   .contact textarea {
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 5px 40px;
+    padding: 5px 10px;
     background-color: rgb(7, 6, 6);
     border: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.839);
@@ -1341,6 +1409,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     width: 550px;
     outline: 0;
     margin-left: 10px;
+    font-size: 14px;
   }
   .contact input::-moz-placeholder {
     color: white;
@@ -1355,14 +1424,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     color: white;
   }
   .contact button {
-    height: 60px;
+    height: 50px;
     width: 140px;
     background-color: rgb(255, 255, 255);
     color: rgb(10, 10, 10);
-    border-radius: 8px;
+    border-radius: 2px;
     border: 0px;
     font-family: "regular";
-    margin-left: 62%;
+    margin-left: 59%;
     margin-bottom: 30px;
     font-size: 15px;
     line-height: 35px;
@@ -1377,14 +1446,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .footer {
     background-color: rgba(0, 0, 0, 0.814);
-    height: 90px;
+    height: 60px;
     justify-content: center;
     align-items: center;
     border-top: 3px bold white;
   }
   .footer p {
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 12px;
     font-family: "regular";
     padding-top: 5px;
   }
